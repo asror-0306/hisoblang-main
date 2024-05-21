@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color:  #021923;
+  color:rgb(226, 211, 76)
+}
+
+
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 4px rgb(226, 211, 76);
+  /* max-width: 768px; */
+  margin:   100px auto;
+ 
+  /* position: relative; */
+  padding-bottom: 30px;
+}
+
+form {
+  padding: 17.5px;
+  margin-top: 20px;
+  margin-bottom: 55px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+h1 {
+  color: rgb(226, 211, 76);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px rgb(226, 211, 76);
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: rgb(226, 211, 76);
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+
+
+input[type='number'], select {
+	background: none;
+  border: none;
+	border-bottom: solid 2px rgb(226, 211, 76);
+	color: rgb(226, 211, 76);
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='number']:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  /* background:  url('https://custombirthdaybanners.co.uk/wp-content/uploads/2017/11/arrow-down.png' )  no-repeat right center; */
+  color : rgb(226, 211, 76);
+  background-repeat: no-repeat;
+  background-size: 500%;
+  outline: none;
+  --moz-appearance: none;
+  --webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: rgb(226, 211, 76);
+}
+
+:-moz-placeholder { 
+	color: rgb(226, 211, 76);
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: rgb(226, 211, 76);
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: rgb(226, 211, 76);
+}
+
+#form_button {
+  background: none;
+  border: solid 2px rgb(226, 211, 76);
+  color: rgb(226, 211, 76);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: rgb(226, 211, 76);
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+  #container {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='number'], select, textarea {
+    font-size: 0.875em;
+  }
+  #container {
+    margin: 20px auto;
+    width: 90%;
+  }
+}
+
+
+label {
+  background-color:  #229ED9;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+#file-chosen{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+  font-size: 24px;
+  color:  rgb(226, 211, 76);
+}
+
+#actual-btn{
+  background-color: rgb(226, 211, 76);
+  
+}
+
+.div{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.div a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.div label:hover{
+  color: rgb(201, 133, 49);
+}
+
+
+
+
+.div a:hover{
+  color: rgb(201, 133, 49);
+  transition: all ease-in 0.1s;
+}
+
+.main-site{
+  display: flex;
+  gap: 5px;
+  margin-top: 7px;
+}
