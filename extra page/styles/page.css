@@ -468,6 +468,11 @@ footer {
 
     .link p {
         margin-left: 120px;
+        
+    }
+
+    .link:hover{
+        color: #000000;
     }
 
     /* SECTION ONE */

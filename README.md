@@ -1,2 +1,0 @@
-# hisoblang
-# Print-Zone

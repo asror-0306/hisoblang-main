@@ -9,11 +9,9 @@ html {
 }
 
 body {
-  background-color:  #021923;
+  background: #021923;
   color:rgb(226, 211, 76)
 }
-
-
 
 button {
   overflow: visible;
@@ -263,33 +261,14 @@ label {
   
 }
 
-.div{
+.mening{
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
+}
+
+.mening p{
+  margin-top: 23px
+  
   
 }
 
-
-.div a{
-  text-decoration: none;
-  color: #fff;
-}
-
-
-.div label:hover{
-  color: rgb(201, 133, 49);
-}
-
-
-
-
-.div a:hover{
-  color: rgb(201, 133, 49);
-  transition: all ease-in 0.1s;
-}
-
-.main-site{
-  display: flex;
-  gap: 5px;
-  margin-top: 7px;
-}
